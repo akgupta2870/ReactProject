@@ -17,6 +17,8 @@ import { Delete } from "./Delete";
 import { Update } from "./Update";
 import { Reminder } from "./Reminder";
 import { Container } from "react-bootstrap";
+import { FileSystem } from "./FileSystem";
+import { Nav, Navigation } from "./Navigation";
 function App() {
   const abc = "wlcome to react ";
   //const [abc,setAbc]=useState("");
@@ -25,7 +27,9 @@ function App() {
     <div className="App">
       <Container>
         <Header />
-        <Reminder />
+        {/* <FileSystem /> */}
+        <Navigation />
+        {/* <Reminder /> */}
         {/* <Homework1/>
       <Arrayhomework/>
       <Palindrome/>
@@ -39,7 +43,7 @@ function App() {
         {/* <Register/>
            <ClassComponent/> */}
         {/* <Main para2={abc}/> */}
-        <Footer />
+        {/* <Footer /> */}
       </Container>
     </div>
   );
